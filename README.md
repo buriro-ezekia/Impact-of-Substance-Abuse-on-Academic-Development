@@ -1,4 +1,4 @@
-# Impact of Substance Abuse on Academic Development — Analysis Project (Python)
+# Impact of Substance Abuse on Academic Development
 
 ## Project overview
 This repository contains the reproducible Python-based analysis for a cross-sectional survey assessing the impact of substance abuse on students' academic development. The analysis evaluates:
@@ -16,31 +16,6 @@ To assess the impact of substance abuse on academic development.
 2. Examine patterns of substance use among students and the socio-demographic factors influencing these patterns.  
 3. Evaluate the impact of substance abuse on academic performance (attendance, grades, participation).  
 4. Investigate the relationship between substance abuse and mental health (depression, anxiety, stress).
-
----
-
-## Repository structure
-- data/
-  - raw/ — raw/unmodified survey exports (CSV/Excel).
-  - processed/ — cleaned datasets used in analysis (Parquet / CSV).
-- code/
-  - 01_data_cleaning.py — data cleaning, variable creation, and quality flags.
-  - 02_descriptives.py — prevalence tables, sources, and plots.
-  - 03_pattern_analysis.py — pattern index, reliability checks, and ordinal models.
-  - 04_academic_models.py — regressions for academic outcomes.
-  - 05_mental_health.py — mental-health scoring and associations.
-  - 06_intervention_analysis.py — attendance, perceived effectiveness, and adjusted comparisons.
-  - utils.py — reusable helper functions (e.g., Cronbach's alpha, CI functions, plotting utilities).
-- notebooks/
-  - exploratory_analysis.ipynb — interactive exploration and figures.
-- output/
-  - tables/ — final CSV/TSV tables used in reporting.
-  - figures/ — publication-quality PNG/SVG files.
-  - logs/ — run logs and diagnostics.
-- docs/
-  - data_dictionary.md — variable names, types, coding, permitted values.
-  - analysis_plan.md — condensed statistical plan (derived from README).
-- README.md — this file.
 
 ---
 
